@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .header-wrapper{
+    max-width: 960px;
+    margin:auto;
+}
+.container{
+    max-width: 960px;
+}
+ /* header .row{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center; */
+/* }  */
+a{
+    text-decoration: none;
+    color: black;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+.carousel-item img{
+    height: calc(100vh - 148.667px);
+    object-fit: cover;  
+}
+.products{
+    height:10rem;
+    width: 10rem;
+}
+p{
+    margin:0;
+}
+.row{
+    padding-bottom: 1rem;
+}
+.card{
+    border-style: none;
+}
+.contain ul li{
+    list-style-type: none;
+}
+.navbar-nav li {
+
+    overflow: hidden;
+
+}
